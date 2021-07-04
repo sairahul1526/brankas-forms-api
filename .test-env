@@ -1,0 +1,8 @@
+# .env file
+
+AUTH_FORM_KEY=ja7hs9j
+DB_CONFIG=root:my-secret-pw@tcp(form_database:3306)/?charset=utf8mb4
+DB_CONNECTION_POOL=20
+PORT=5000
+LOG=true
+MIGRATE=false

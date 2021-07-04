@@ -1,0 +1,40 @@
+info:
+  contact: {}
+  description: This is an api to submit form
+  title: Brankas Task - Form API
+  version: "1.0"
+paths:
+  /form:
+    get:
+      produces:
+      - text/html
+      responses:
+        "200":
+          description: ""
+      summary: Get form HTML
+      tags:
+      - Form
+  /form/upload:
+    post:
+      consumes:
+      - multipart/form-data
+      parameters:
+      - description: File to be uploaded
+        in: formData
+        name: file
+        required: true
+        type: file
+      - description: Auth key from server
+        in: formData
+        name: auth
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ""
+      summary: Upload form file
+      tags:
+      - Form
+swagger: "2.0"

@@ -1,0 +1,10 @@
+Form API
+- You can change auth key in ".test-env" file
+- Test cases are not written
+- HTML file is basic (copied from online, since I don't know much about HTML)
+- Swagger is also included
+- MYSQL database is chooses as datastore
+- Static files like HTML are stored in "static" folder
+- Uploaded files are stored locally in "images" folder and named as MD5 of its content
+- Maximum file size uploaded is 8 MB (change in constant/files.go)
+- To run locally, use "make run" (you need to have docker installed)
