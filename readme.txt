@@ -1,4 +1,5 @@
 Form API
+- Change env vars in ".test-env" file to run locally (for prod, code uses already set env vars)
 - You can change auth key in ".test-env" file
 - Test cases are not written
 - HTML file is basic (copied from online, since I don't know much about HTML)
